@@ -1,0 +1,62 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+/* ================= CUSTOM COLOR COKLAT-KUNING ================= */
+
+.fi-sidebar {
+    background: linear-gradient(180deg, #4E342E 0%, #6B4226 50%, #8B5A2B 100%);
+}
+
+.fi-sidebar-item-label,
+.fi-sidebar-group-label {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.fi-sidebar-item-active {
+    background: linear-gradient(135deg, #FFC107, #E0A800) !important;
+}
+
+.fi-sidebar-item-active .fi-sidebar-item-label {
+    color: #3E2723 !important;
+    font-weight: 700;
+}
+
+.fi-sidebar-item:hover {
+    background: rgba(255, 193, 7, 0.15) !important;
+}
+
+.fi-topbar {
+    background: #FAF6F0 !important;
+    border-bottom: 2px solid #FFC107;
+}
+
+.fi-btn-color-primary {
+    background: linear-gradient(135deg, #6B4226, #8B5A2B) !important;
+}
+
+.fi-btn-color-primary:hover {
+    background: linear-gradient(135deg, #4E342E, #6B4226) !important;
+}
+
+.fi-link {
+    color: #6B4226 !important;
+}
+
+.fi-link:hover {
+    color: #FFC107 !important;
+}
+
+.fi-ta-header-cell {
+    background: #FAF6F0 !important;
+    color: #3E2723 !important;
+    font-weight: 700;
+}
+
+.fi-section {
+    border-left: 4px solid #FFC107;
+}
+
+.fi-main {
+    background: #FAF6F0;
+}
